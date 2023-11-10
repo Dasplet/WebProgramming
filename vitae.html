@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Portfolio Website HTML CSS and JavaScript</title>
+    <link rel="stylesheet" href="vitae.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- Profile Page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="Images/Tuxedo.jpg" alt="">
+                    <h1>Thomas Hernández</h1>
+                    <h3>Estudiante de Ingeniería</h3>
+
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-facebook'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                    </div>
+
+                    <p>Curso actualmente el sexto semestre en Ingeniería Informática, en la Institución Universitaria de Envigado. A lo largo de mi esxperiencia universitaria, he aprendido y abarcado temas tales como Base de Datos, Redes de Datos, Programación Orientada a Objetos y Lenguaje de Programación en Java, Python y C#</p>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- Page 1 (Work Experience) -->
+                <div class="page-front">
+                    <h1 class="title">My Path in Coding</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2019-2021</span>
+                            <h3>Selección de Carrera</h3>
+                            <p>Durante la pandemia del COVID-19, los videojuegos fueron una base fundamental para no aburrirme y por ende decidí estudiar programación para crear mis ideas.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2021-2022</span>
+                            <h3>Misión MINTIC 2022</h3>
+                            <p>Me presenté al curso del Ministerio de las Tecnologías y las TIC para aprender un poco acerca de cómo funcionan los lenguajes de programación.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2021-Present</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Actualmente estoy estudiando ingeniería de software/informatica, ya que es importante aprender sobre otros temas relacionados para enlazarlos cuando los una con entretenimeinto digital</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">1</span>
+
+                    <!-- Next Button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- Page 2 (Education) -->
+                <div class="page-back">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2009-2020</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Realizado en la Unidad Educativa San Marcos (UNESAM) en Envigado, Antioquia.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2021-Present</span>
+                            <h3>Web Developer - Company</h3>
+                            <p>Realizado en la Institución Universitaria de Envigado (IUE) en Envigado, Antioquia.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year"><i class='bx bxs-calendar'></i>2023-Present</span>
+                            <h3>Inglés Nivel B2 - C1</h3>
+                            <p>Realizado en la Academia de Idiomas SMART sede Envigado, Antioquia.</p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- Prev Button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- Page 3 (My Services) -->
+                <div class="page-front">
+                    <h1 class="title">Mis Gustos</h1>
+                    <div class="services-box">
+
+                        <div class="services-content">
+                            <i class='bx bx-code-alt'></i>
+                            <h3>Web Development</h3>
+                            <p>Diseñar lo visual de las páginas es algo que me gusta.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bxl-unity' ></i>
+                            <h3>Game Creating</h3>
+                            <p>Soy fanático de los videojuegos y esa es mi pasión.</p>
+                            <a href="https://flappybirdie.neocities.org/" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-recycle' ></i>
+                            <h3>Start-Ups</h3>
+                            <p>Participo activamente en el proyecto llamado Wheelo.</p>
+                            <a href="https://wheelo.my.canva.site/wheelo-co" class="btn">Read More</a>
+                        </div>
+
+                        <div class="services-content">
+                            <i class='bx bx-music'></i>
+                            <h3>Music Creator</h3>
+                            <p>Estoy aprendiendo a crear mis propios ritmos.</p>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+
+                    <!-- Next Button -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- Page 4 (My Skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Front-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5'></i>HTML</span>
+                                <span><i class='bx bxl-css3'></i>CSS</span>
+                                <span><i class='bx bxl-javascript'></i>JS</span>
+                                <span><i class='bx bxl-react' ></i></i>React</span>
+                                <span><i class='bx bxl-sass'></i>Sass</span>
+                                <span><i class='bx bxl-typescript' ></i>Typescript</span>
+                                <span><i class='bx bxl-flutter'></i>Flutter</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Back-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-python'></i>Python</span>
+                                <span><i class='bx bxl-java'></i>Java</span>
+                                <span><i class='bx bxs-data'></i>SQL</span>
+                                <span><i class='bx bxl-nodejs'></i>NodeJs</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-content">
+                            <h3>Extras</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-figma'></i>Figma</span>
+                                <span><i class='bx bxl-discord-alt'></i>Discord.js</span>
+                                <span><i class='bx bx-code-block'></i>XSE Editor</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="number-page">4</span>
+
+                    <!-- Prev Button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                </div>
+            </div>
+
+            <!-- Páginas 5 y 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- Page 5 -->
+                <div class = "page-front">
+                    <h1 class = "title">Latest Project</h1>
+
+                    <div class="portfolio-box">
+                        <div class="img-box">
+                            <img src="Images/Pokedex.png" alt="">
+                        </div>
+
+                        <div class="info-box">
+                            <div class = "info-title">
+                                <h3>Project Name</h3>
+                                <a href="#">Live Preview<i class='bx bx-link-external'></i></a>
+                            </div>
+                            <p>Tech Used:</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sit pariatur adipisci, sequi et ratione rem veritatis ullam at reprehenderit!</p>
+                        </div>
+
+                        <div class="btn-box">
+                            <a href="#" class="btn">Source Code</a>
+                            <a href="#" class="btn">More Projects</a>
+                        </div>
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- Next Button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- Page 6 -->
+                <div class="page-back">
+                    <h1 class="title"> Contact me!</h1>
+
+                    <div class="contact-box">
+                        <form action="#">
+                            <input type="text" class="field" placeholder="Full Name" required>
+                            <input type="email" class="field" placeholder="Email Address" required>
+                            <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message" required></textarea>
+                            <input type="submit" class="btn" value="Send Message">
+                        </form>
+                    </div>
+
+                    <span class="number-page">6</span>
+
+                    <!-- Prev Button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class='bx bx-chevron-left'></i>
+                    </span>
+
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="vitae.js"></script>
+
+</body>
+
+</html>
